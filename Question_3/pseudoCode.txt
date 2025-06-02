@@ -1,0 +1,16 @@
+Input: 
+List of objects of eligible voters with citizen ID and vote status
+An object vote containing citizen ID and the candidate ID
+List of objects for the candidate with the candidate ID and count
+
+Process:
+If the citizen ID is in the list of eligible voters, the vote status is false, and the candidate ID is found in the list of candidates
+Add one to the candidate’s count
+Update the voter status to true
+If the citizen ID is not found in the list of eligible voters, fraud is detected
+If the candidate ID is not found in the list of objects for the candidate, invalid candidate ID
+If the vote status is true, the citizen ID has already voted
+
+Output:
+List of objects for the candidate with the candidate ID and updated count
+

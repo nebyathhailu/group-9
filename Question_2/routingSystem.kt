@@ -14,10 +14,11 @@
             Student(1, Location(1.290270, 36.821946)),
             Student(2, Location(1.292030, 36.822000)),
             Student(3, Location(1.289000, 36.819000)),
+            Student(4, Location(1.489000, 36.818000))
         )
         val busStops = listOf(
             BusStop("A", Location(1.291000, 36.820000)),
-            BusStop("B", Location(1.293000, 36.823000)),
+            BusStop("B", Location(1.293000, 36.823000))
         )
         val busCapacity = 20
         val studentBus = mutableMapOf<Int,String>()

@@ -12,5 +12,5 @@ access the scores
 loop through the scores
 find the minimum score and put it in the list as an object with key of Minimum
 find the maximum score and put it in the list as an object with key of Maximum
-find the average score and put it in the listas an object with key of Average
+find the average score and put it in the list as an object with key of Average
 put the name as a key and and the list values as the value of the key in the empty object
